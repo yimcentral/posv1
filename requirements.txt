@@ -1,0 +1,6 @@
+streamlit>=1.38
+pypdf>=4.0
+anthropic>=0.34
+openai>=1.40       # only needed if LLM_PROVIDER=openrouter
+supabase>=2.7
+voyageai>=0.3
