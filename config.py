@@ -20,7 +20,7 @@ STORAGE_BUCKET = "staff-reports"
 LLM_PROVIDER = os.environ.get("LLM_PROVIDER", "anthropic")
 EXTRACTION_MODEL = os.environ.get(
     "EXTRACTION_MODEL",
-    "claude-haiku-4-5-20251001" if LLM_PROVIDER == "anthropic" else "anthropic/claude-haiku-4.5",
+    "claude-haiku-4-5-20251001" if LLM_PROVIDER == "anthropic" else "openai/gpt-5.6-luna",
 )
 
 # --- Embeddings (Voyage AI — lightweight API call, no local ML model,
